@@ -1,0 +1,70 @@
+.cf:before,
+.cf:after {
+   content: " ";
+   display: table;
+}
+
+.cf:after {
+   clear: both;
+}
+
+.cf {
+   *zoom: 1; /* for IE6 and IE7 */
+}
+
+* {
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+ font-size: 16px;
+}
+
+body {
+
+  background: #F2F2F2 url(../images/bg-main.gif) repeat repeat;
+  background-attachment: fixed;
+  background-position: left top;
+  color: #333;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  word-wrap: break-word;
+
+}
+
+.center-global {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+
+.admin_table th {
+   font-weight: bold;
+   text-align: left;
+   background-color: #F1F1F1;
+}
+
+.admin_table th, .admin_table td, .admin_table input {
+   height: 35px;
+   width: 200px;
+}
+
+th.admin_col, td.deletecell, td.insertcell {
+   width: 80px;
+}
+
+.admin_table th, .admin_table input {
+   padding-left: 5px;
+   padding-right: 5px;
+}
+
+.admin_table input {
+   font-size: 0.9em;
+}
+
+.admin_table input:focus {
+   background-color: #FEE5AC;
+}
+
+.admin_table th, .admin_table td {
+   border: 1px solid black;
+}
